@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        
+        <button type="toggle"id="toggleBtn" onclick="toggleTheme()">
+            <i id="theme-icon" class="fas fa-moon"></i>
+        </button>
+        <div class="badge-points-container">
+            <h3 id="points">Points: 0</h3>
+            <h3 id="badge"></h3>
+        </div>
+        
+        <h1>Task Manager</h1>
+        
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter task..." />
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        
+        <div class="filter">
+            <label for="filterDate">Filter by Date:</label>
+            <input type="date" id="filterDate" onchange="filterTasks()">
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <h3>Task Progress</h3>
+        <progress id="task-progress" value="0" max="100"></progress>
+        <span id="progress-text">0%</span>
+      
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+## Introduction Guide, Contribution Guidelines
+, and License. Ensure it is well-formatted wit
+Task Manager is a simple yet efficient web application built using HTML, CSS, and JavaScript.  It's designed to help users organize their daily tasks effectively, providing a clean and user-friendly interface for adding, editing, and deleting tasks. This application aims to be a lightweight and intuitive solution for personal task management.
+
+
+## Features
+
+* **Add Tasks:** Easily add new tasks with descriptions and optional due dates.
+* **Edit Tasks:** Modify existing tasks, including descriptions and due dates.
+* **Delete Tasks:** Remove completed or irrelevant tasks.
+* **Clear All Tasks:**  A button to quickly clear all tasks from the list.
+* **Responsive Design:** Adapts to different screen sizes for optimal viewing on desktops and mobile devices.
+* **Local Storage:** Tasks are persistently stored in the browser's local storage, ensuring data is retained even after closing the browser.
+
+
+## Installation Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository_url>
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd Task-Manager
+   ```
+3. **Open `index.html` in your web browser.**  No server-side components are required.
+
+
+## Usage Guide
+
+1. **Adding a Task:** Click the "Add Task" button, enter a task description (required) and an optional due date. Click "Add" to save the task.
+
+2. **Editing a Task:** Click on the edit icon (pencil) next to a task to modify its description and/or due date. Click "Save" to update the task.
+
+3. **Deleting a Task:** Click on the delete icon (trash can) next to a task to remove it from the list.
+
+4. **Clearing All Tasks:** Click the "Clear All Tasks" button to delete all tasks from the list.
+
+**(Example Screenshots would be helpful here.  Include images showing the application's interface and the task adding/editing/deleting actions.)**
+
+
+## Contribution Guidelines
+
+Contributions are welcome!  If you'd like to contribute to the project, please follow these guidelines:
+
+1. **Fork the repository.**
+2. **Create a new branch for your feature or bug fix.**
+3. **Make your changes and commit them with descriptive commit messages.**
+4. **Push your branch to your forked repository.**
+5. **Submit a pull request.**
+
+Please ensure your code adheres to the existing coding style and includes relevant tests.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
+
+**(Remember to replace `<repository_url>` with the actual URL of your GitHub repository and create a LICENSE file with the desired MIT License text.)**
